@@ -1,0 +1,624 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <!-- disable auto telephone linking in iOS -->
+        <title>{{orders.0.sellers.0.name}}</title>
+        <style type="text/css">
+            body{
+                margin:0;
+                padding:0;
+                font-family: Arial, Helvetica, sans-serif;
+                color: #333333;
+                font-size: 14px;
+            }
+            /* yahoo, hotmail */
+            .ReadMsgBody{ width:100%; }
+            .ExternalClass{ width:100%; }
+            .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div{ line-height: 100%; }
+            .yshortcuts a{ border-bottom: none !important; }
+            .vb-outer{ min-width: 0 !important; }
+            .RMsgBdy, .ExternalClass{
+                width: 100%;
+                background-color: #3f3f3f;
+            }
+            /* outlook/office365 add buttons outside not-linked images and safari have 2px margin */
+            [o365] button{ margin: 0 !important; }
+            /* outlook */
+            table{ mso-table-rspace: 0pt; mso-table-lspace: 0pt; }
+            #outlook a{ padding: 0; }
+            a { border: 0 !important; text-decoration: none !important; }
+            img{ outline: none; text-decoration: none; border: none; -ms-interpolation-mode: bicubic; }
+            a img{ border: none; }
+            /* Gmail */
+            .ii a[href] {
+                color: #333333 !important;
+            }
+        </style>
+   </head>
+   <body alink="#00a94f" vlink="#00a94f">
+        <!--[if (gte mso 9)|(IE)]>
+        <table width="600" align="center" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+                <td>
+                <![endif]-->
+                    <table border="0" cellspacing="0" cellpadding="0" class="principal" style="margin:auto; width:100%; max-width:600px; font-family:Arial, Helvetica, sans-serif; border-collapse: collapse;">
+                        <tr>
+                            <td height="40"></td>
+                        </tr>
+                        <tr>
+                            <td height="auto">
+                                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <td style="width: 50px;" class="mobile-margen"></td>
+                                        <td height="50" valign="middle" align="center" class="cntlogo">
+                                            <a href="http://{{_accountInfo.HostName}}.com.br"><img height="auto" border="0" width="auto" style="border:none;border-left:0px;border-right:0px;" alt="shopstar" src="https://mercury.vteximg.com.br/arquivos/logo-desktop.png" class="img-logo"></a>
+                                        </td>
+                                        <td style="width: 50px;" class="mobile-margen"></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <td height="40" colspan="3"></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width: 50px;" class="mobile-margen"></td>
+                                        <td valign="top">
+                                            <div style="font-family: Arial, Helvetica, sans-serif; font-size: 20px; color: #333333; text-align: left; font-weight: normal; line-height: 35px;">
+                                                <font style="font-weight: bold; color: #5822A0;">
+                                                    Hola {{orders.0.clientProfileData.firstName}}
+                                                </font>
+                                               
+                                            </div>
+                                        </td>
+                                        <td style="width: 50px;" class="mobile-margen"></td>
+                                    </tr>
+                                    <tr>
+                                        <td height="10" colspan="3"></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width: 50px;" class="mobile-margen"></td>
+                                        <td>
+                                            <div style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: #8c8b8b; text-align: left; font-weight: normal; line-height: 24px;">
+                                                Gracias por comprar en <font style="color: #5822a0;font-weight: bold;">Shopstar.pe</font> tu orden <font style="color: #5822a0;font-weight: bold;">{{orders.0.orderGroup}}</font> pasará por un proceso de validación y recibirás las siguientes <font style="color: #5822a0;font-weight: bold;">notificaciones:</font>
+                                            </div>
+                                        </td>
+                                        <td style="width: 50px;" class="mobile-margen"></td>
+                                    </tr>
+                                    <tr>
+                                        <td height="40" colspan="3"></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="auto">
+                                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                    <tbody><tr>
+                                        <td style="width: 50px;" class="mobile-margen"></td>
+                                        <td height="70" valign="middle" align="center" class="cntlogo">
+                                            <img alt="Interbank Select" border="0" hspace="0" vspace="0" width="500" height="35" style="border: 0px; display: block; color: #333333; font-size: 13px; font-family: Arial, Helvetica, sans-serif; width: 500px; height: auto; max-width: 500px;" src="pasos.png" class="lgorespselect">
+                                        </td>
+                                        <td style="width: 50px;" class="mobile-margen"></td>
+                                    </tr>
+                                </tbody></table>
+                            </td>
+                        </tr>
+                         <tr>
+                            <td height="20"></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                    <tbody><tr>
+                                        <td style="width: 50px;" class="mobile-margen"></td>
+                                        <td height="1" style="border-bottom: 1px solid #e9e9e9;"></td>
+                                        <td style="width: 50px;" class="mobile-margen"></td>
+                                    </tr>
+                                </tbody></table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="20"></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                    <tbody>
+                                    <tr>
+                                        <td style="width: 50px;" class="mobile-margen"></td>
+                                        <td>
+                                            <div style="font-size: 20px; line-height: 30px;">
+                                                <font style="font-weight: bold;">Detalles de tu pedido:</font>
+                                            </div>
+                                        </td>
+                                        <td style="width: 50px;" class="mobile-margen"></td>
+                                    </tr>
+                                    <tr>
+                                        <td height="20" colspan="3"></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width: 50px;" class="mobile-margen"></td>
+                                        <td>
+                                            <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; mso-cellspacing: 0px; border-spacing: 0px; -mru-width: 0px;" width="100%" class="vb-row">
+                                                <tbody>
+                                                <tr>
+                                                    <td width="50" valign="middle" align="left" class="mobile-vmiddle">
+                                                        <img alt="Millas Benefit" border="0" hspace="0" vspace="0" width="30" height="50" align="center" style="border: 0px; display: block; color: #333333; font-size: 13px; font-family: Arial, Helvetica, sans-serif; width: 30px; height: auto; max-width: 100%;" src="icon-orden.png">
+                                                    </td>
+                                                    <td valign="middle" align="left">
+                                                        <div style="font-size: 14px; line-height: 24px;">N° de Orden : <span style="font-weight: bold;">{{orders.0.orderGroup}}</span></div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2" height="20"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td width="50" valign="middle" align="left" class="mobile-vmiddle">
+                                                        <img alt="Paga la diferencia" border="0" hspace="0" vspace="0" width="30" height="50" align="center" style="border: 0px; display: block; color: #333333; font-size: 13px; font-family: Arial, Helvetica, sans-serif; width: 30px; height: auto; max-width: 100%;" src="icon-profile.png">
+                                                    </td>
+                                                    <td valign="middle" align="left">
+                                                        <div style="font-size: 14px; line-height: 24px;"> Nombre: <span style="font-weight: bold; ">{{orders.0.clientProfileData.firstName}} {{orders.0.clientProfileData.lastName}}</span></div></td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2" height="20"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td width="50" valign="middle" align="left" class="mobile-vmiddle">
+                                                        <img alt="Tarjeta de Crédito Interbank" border="0" hspace="0" vspace="0" width="30" height="50" align="center" style="border: 0px; display: block; color: #333333; font-size: 13px; font-family: Arial, Helvetica, sans-serif; width: 30px; height: auto; max-width: 100%;" src="icon-card.png">
+                                                    </td>
+                                                    <td valign="middle" align="left">
+                                                        <div style="font-size: 14px; line-height: 24px;">DNI : <span style="font-weight: bold; "> {{orders.0.clientProfileData.document}}</span></div>
+                                                    </td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                        <td style="width: 50px;" class="mobile-margen"></td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="20"></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                    <tbody>
+                                    <tr>
+                                        <td style="width: 50px;" class="mobile-margen"></td>
+                                        <td>
+                                            <div style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #333333; text-align: left; line-height: 24px;">
+                                                Tu pedido está compuesto por <span style="font-weight: bold;"> 2 paquetes </span>, te pedimos revisar los detalles de envío o recojo de cada uno.
+                                            </div>
+                                        </td>
+                                        <td style="width: 50px;" class="mobile-margen"></td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td height="20"></td>
+                        </tr>
+                        <tr style="    background-color: #f1f1f1;">
+                            <td>
+                                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                    <tbody>
+                                        <tr>
+                                        <td height="10"></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width: 50px;" class="mobile-margen"></td>
+                                        <td>
+                                            <div style="font-family: Arial, Helvetica, sans-serif; font-size: 24px; color: #333333; text-align: left; line-height: 24px;font-weight: bold;">
+                                                Paquete
+                                            </div>
+
+                                        </td>
+                                        <td style="width: 50px;" class="mobile-margen"></td>
+                                    </tr>
+                                    <tr>
+                                        <td height="10"></td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="10"></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                    <tbody>
+                                    <tr>
+                                        <td style="width: 50px;" class="mobile-margen"></td>
+                                        <td>
+                                            <div style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #333333; text-align: left; line-height: 24px;">
+                                                Vendido y despachado por : 
+                                            </div>
+                                        </td>
+                                        <td style="width: 50px;" class="mobile-margen"></td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="20"></td>
+                        </tr>
+                        <tr>
+                            <td align="center" style="padding: 5px 35px 20px 35px; background-color: #ffffff;" bgcolor="#ffffff">
+                                <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">       
+                                    <!-- Dados do pedido -->
+                                   <tr>
+                                        <td align="left" style="padding-top: 20px;">
+                                            {{#each orders}}
+                                            <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                                            <!-- Produto n# 1 -->
+                                                {{#each items}}
+                                                <tr>
+                                                    <!-- Thumb do produto-->
+                                                    <td width="20%" align="left" style="font-family: 'arial',sans-serif; font-size: 12px; font-weight: 400; line-height: 24px; padding: 15px 0px 5px 0px; color:#333333; border-bottom: 3px solid #eeeeee; padding-bottom: 15px;" mc:edit="Item 1">   <img src="{{imageUrl}}" width="60px" />
+                                                    </td>
+    
+                                                    <!-- Quantidade e descrição do produto -->
+                                                    <td width="56%" align="left" style="font-family: 'arial',sans-serif; font-size: 12px; border-bottom: 3px solid #eeeeee;">
+                                                        <b>{{quantity}} un. {{name}}</b><br />
+                                                            <i>
+        
+                                                            <span style="font-family: 'arial',sans-serif; font-size: 12px; font-weight: 400;">Entrega 
+        
+                                                                <span>
+                                                                    <span style="font-size:14px;font-family: 'arial',sans-serif;color:#000;display:inline-block;font-weight: bold;">
+                                                                        {{#each ../shippingData.logisticsInfo}}
+                                                                        {{#eq itemId ../id}}
+                                                                        {{#each slas}}
+            
+                                                                        {{#eq ../selectedSla id}}
+                                                                        {{#if deliveryWindow}}
+                                                                        Programado
+                                                                        {{else}}
+                                                                        {{#unless shippingEstimateDate}}
+
+                                                                    </span>
+                                                                        en hasta 
+                                                                    <strong style="font-size:12px;font-family: 'arial',sans-serif;color:#000;">
+                                                                        {{#hasSubStr shippingEstimate 'bd'}}
+                                                                            {{replace shippingEstimate 'bd' ' días hábiles.'}}
+                                                                        {{else}}
+                                                                            {{replace shippingEstimate 'd' ' días.'}}
+                                                                        {{/hasSubStr}}
+                                                                        {{else}}
+                                                                    </strong>até 
+                                                                    <strong style="font-size:14px;font-family: 'arial',sans-serif;color:#000;">
+                                                                        {{formatDate shippingEstimateDate}}
+                                                                        {{/unless}}
+                                                                        {{/if}}
+                                                                        {{/eq}}
+                                                                        {{/each}}
+                                                                        {{/eq}}
+                                                                        {{/each}}
+                                                                    </strong>
+                                                                </span>
+                                                            </span>
+                                                        </i>
+                                                    </td>
+                                                    <!-- Valor do produto -->
+                                                    <td width="24%" align="left" style="font-family: 'arial',sans-serif; font-size: 12px; font-weight: 400; line-height: 17px; color:#333333; border-bottom: 3px solid #eeeeee; padding-left: 15px;">
+                                                        <b>{{quantity}} x S/. {{formatCurrency sellingPrice}}</b>
+                                                    </td>
+                                                </tr>
+                                                 {{/each}}
+                                            </table>
+                                            <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                                                {{#each totals}}
+                                                {{#if value}}                                              
+                                                    <tr>
+                                                        <td width="75%" align="left" style="font-family: 'arial',sans-serif; font-size: 16px; font-weight: 300; line-height: 24px; padding: 10px 5px 0px 10px; padding-top: 14px;" mc:edit="Item 1">
+                                                            {{#eq id "Items"}}<strong style="    color: #5822a0;">Producto</strong>{{/eq}}
+                                                            {{#eq id "Shipping"}}<strong style="    color: #5822a0;">Envio</strong>{{/eq}}
+                                                            {{#eq id "Discounts"}}Descuentos{{/eq}}
+                                                            {{#eq id "Tax"}}Honorarios{{/eq}}
+                                                        </td>
+                                                        <td width="25%" align="left" style="font-family: 'arial',sans-serif; font-size: 16px; font-weight: 400; line-height: 24px; padding: 10px 5px 0px 10px;" mc:edit="Item Value 2">S/. {{formatCurrency value}}</td> 
+                                                    </tr>
+                                                {{/if}}                                               
+                                                {{/each}}    
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    {{#if value}}
+                                    <tr>
+                                        <td height="20"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                                <tbody>
+                                                    <tr>
+                                                        <td height="3" style="border-bottom: 3px solid #e9e9e9;"></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td height="20"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <table width="100%" border="0" cellpadding="0" cellspacing="0" style="background-color:#e9e9e9;">
+                                                <tbody>
+                                                <tr>
+                                                    <td height="10" colspan="3"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="width: 50px;" class="mobile-margen"></td>
+                                                    <td>
+                                                        <table width="50%" border="0" cellpadding="0" cellspacing="0" align="left" class="mobile-full">
+                                                            <tbody>
+                                                            <tr>
+                                                                <td valign="middle" height="40" width="50%" style="text-align: left; vertical-align: middle;">
+                                                                    <div style="font-family: Arial;font-size: 16px;display: block;font-weight: bold;line-height: 24px;color: #4A4A4A;">
+                                                                        TOTAL
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            </tbody>
+                                                        </table>
+                                                        <table width="49%" border="0" cellpadding="0" cellspacing="0" align="right" class="mobile-full">
+                                                            <tbody>
+                                                            <tr>
+                                                                <td height="40" valign="middle" style="vertical-align: middle; text-align: right;" class="mobile-textleft">
+                                                                    <div style="font-family: Arial;font-size: 16px;display: block;font-weight: bold;line-height: 24px;color: #4A4A4A;">
+                                                                        S/. {{formatCurrency value}}
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                    <td style="width: 50px;" class="mobile-margen"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="10" colspan="3"></td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    {{/if}}
+                                </table>
+                            </td>
+                        </tr>
+                        {{/each}}
+                        <!-- Dados do pedido : End -->
+                        <tr>
+                            <td height="40"></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                    <tbody><tr>
+                                        <td style="width: 50px;" class="mobile-margen"></td>
+                                        <td height="3" style="border-bottom: 3px solid #e9e9e9;"></td>
+                                        <td style="width: 50px;" class="mobile-margen"></td>
+                                    </tr>
+                                </tbody></table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="40"></td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                    <tbody>
+                                        <tr>
+                                            <td style="width: 50px;" class="mobile-margen"></td>
+                                            <td>
+                                                <div style="font-family: Arial, Helvetica, sans-serif; font-size: 20px; color: #5822a0; text-align: center; line-height: 30px; font-weight: bold;">
+                                                    Datos de la entrega:
+                                                </div>
+                                            </td>
+                                            <td style="width: 50px;" class="mobile-margen"></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 50px;" class="mobile-margen"></td>
+                                            <td>
+                                                <div style="font-size: 14px;line-height: 24px;font-family: Arial;color: #8c8b8b;text-align: center;">
+                                                    Modalidad de entrega: 
+
+                                                    {{orders.0.shippingData.logisticsInfo.0.selectedSla}}
+
+                                                   
+                                                </div>
+                                            </td>
+                                            <td style="width: 50px;" class="mobile-margen"></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="40"></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                    <tbody>
+                                    <tr>
+                                        <td style="width: 50px;" class="mobile-margen"></td>
+                                        <td style="vertical-align: top;" valign="top" align="center">
+                                            <!--[if (gte mso 9)|(lte ie 8)]>
+                                            <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                <tr>
+                                                    <td align="left" valign="top" width="250">
+                                            <![endif]-->
+                                            
+                                            <!--[if (gte mso 9)|(lte ie 8)]>
+                                                    </td>
+                                                    <td align="left" valign="top" width="250">
+                                            <![endif]-->
+                                            <table border="0" cellpadding="0" cellspacing="0" align="left" style="width: 100%; max-width: 249px;" class="mobile-full">
+                                                <tbody>
+                                                    <tr>
+                                                        <td>
+                                                            <table border="0" cellpadding="0" cellspacing="0" align="center" style="width: 100%;" class="tabla-centrar">
+                                                                <tr>
+                                                                    <td width="50" valign="middle" align="left" class="mobile-vmiddle">
+                                                                        <img border="0" hspace="0" vspace="0" width="29" height="19" align="center" style="border: 0px; display: block; color: #333333; font-size: 13px; font-family: Arial, Helvetica, sans-serif; width: 29px; height: auto; max-width: 100%;" src="http://mercury.vteximg.com.br/arquivos/DNI.png">
+                                                                    </td>
+                                                                    <td valign="middle" align="left">
+                                                                        <div style="font-size: 14px;line-height: 24px;font-family: Arial;color: #8c8b8b;">
+                                                                            <font style="font-weight: bold;">DNI</font><br>
+                                                                            {{orders.0.clientProfileData.document}}
+                                                                        </div>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td height="20"></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <!--[if (gte mso 9)|(lte ie 8)]>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <![endif]-->
+                                        </td>
+                                        <td style="width: 50px;" class="mobile-margen"></td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                    <tbody>
+                                    <tr>
+                                        <td style="width: 50px;" class="mobile-margen"></td>
+                                        <td style="vertical-align: top;" valign="top" align="center">
+                                            <!--[if (gte mso 9)|(lte ie 8)]>
+                                            <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                <tr>
+                                                    <td align="left" valign="top" width="250">
+                                            <![endif]-->
+                                            <table border="0" cellpadding="0" cellspacing="0" align="left" style="width: 100%; max-width: 249px;" class="mobile-full">
+                                                <tbody>
+                                                    <tr>
+                                                        <td>
+                                                            <table border="0" cellpadding="0" cellspacing="0" align="center" style="width: 100%;" class="tabla-centrar">
+                                                                <tr>
+                                                                    <td width="50" valign="middle" align="left" class="mobile-vmiddle">
+                                                                        <img border="0" hspace="0" vspace="0" width="25" height="23" align="center" style="border: 0px; display: block; color: #333333; font-size: 13px; font-family: Arial, Helvetica, sans-serif; width: 25px; height: auto; max-width: 100%;" src="http://mercury.vteximg.com.br/arquivos/icon_calendary.png">
+                                                                    </td>
+                                                                    <td valign="middle" align="left">
+                                                                        <div style="font-size: 14px;line-height: 24px;font-family: Arial;color: #8c8b8b;">
+                                                                            <font style="font-weight: bold;">Fecha de entrega</font><br>                                                                            
+                                                                            {{#each orders.0.shippingData.logisticsInfo}}
+                                                                                {{#eq itemIndex 0}}
+                                                                                {{#each slas}}
+                                                                                {{#eq ../selectedSla id}}
+                                                                                {{formatDate shippingEstimateDate}}
+                                                                                {{/eq}}
+                                                                                {{/each}}
+                                                                                {{/eq}}
+                                                                                {{/each}}
+                                                                        </div>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td height="20"></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <!--[if (gte mso 9)|(lte ie 8)]>
+                                                    </td>
+                                                    <td align="left" valign="top" width="250">
+                                            <![endif]-->
+                                            <table border="0" cellpadding="0" cellspacing="0" align="left" style="width: 100%; max-width: 249px;" class="mobile-full">
+                                                <tbody>
+                                                    <tr>
+                                                        <td>
+                                                            <table border="0" cellpadding="0" cellspacing="0" align="center" style="width: 100%;" class="tabla-centrar">
+                                                                <tr>
+                                                                    <td width="50" valign="middle" align="left" class="mobile-vmiddle">
+                                                                        <img border="0" hspace="0" vspace="0" width="20" height="28" align="center" style="border: 0px; display: block;width: 20px; height: auto; max-width: 100%;" src="http://mercury.vteximg.com.br/arquivos/icon_ubicacion.png">
+                                                                    </td>
+                                                                    <td valign="middle" align="left">
+                                                                        <div style="font-size: 14px;line-height: 24px;font-family: Arial;color: #8c8b8b;">
+                                                                            <font style="font-weight: bold;">Dirección de Cliente</font><br>
+                                                                            {{orders.0.shippingData.address.street}}, {{orders.0.shippingData.address.number}} {{orders.0.shippingData.address.complement}} - {{orders.0.shippingData.address.neighborhood}}
+                                                                            <br />
+                                                                            {{orders.0.shippingData.address.reference}} 
+                                                                            <br />
+                                                                            {{orders.0.shippingData.address.city}} - {{orders.0.shippingData.address.state}}
+
+                                                                        </div>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td height="20"></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <!--[if (gte mso 9)|(lte ie 8)]>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <![endif]-->
+                                        </td>
+                                        <td style="width: 50px;" class="mobile-margen"></td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="20"></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                    <tbody><tr>
+                                        <td style="width: 50px;" class="mobile-margen"></td>
+                                        <td height="3" style="border-bottom: 3px solid #e9e9e9;"></td>
+                                        <td style="width: 50px;" class="mobile-margen"></td>
+                                    </tr>
+                                </tbody></table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="40"></td>
+                        </tr>
+                       
+                    </table>
+                <!--[if (gte mso 9)|(IE)]>
+                </td>
+            </tr>
+        </table>
+        <![endif]-->
+    </body>
+</html>
